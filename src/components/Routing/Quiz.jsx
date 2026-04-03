@@ -5,7 +5,7 @@ const Quiz = () => {
   return (
     <>
        <div>Quiz</div>
-       <button onClick={()=>navigate("/result",{replace:true})}>Submit</button>
+       <button onClick={()=>navigate("/result",{replace :true})}>Submit</button>
     </>
     
   )

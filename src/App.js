@@ -19,6 +19,8 @@ import Uncontrolled from './components/uncontrolled';
 import ThemeChange from './components/ThemeChange';
 import BasicRouting from './components/Routing/BasicRouting';
 import MainRouting from './components/Routing/MainRouting';
+import Routes1 from './components/RoutingwithpassingValues/Routes1';
+import MainRoutes from './components/RoutingWithParams/MainRoutes';
 
 function App() {
   const [count,setCount]=useState(80);
@@ -44,6 +46,8 @@ function App() {
         <ThemeChange/>
        <BasicRouting/>
        <MainRouting/>
+       <Routes1/>
+       <MainRoutes/>
       </Counti.Provider>
       
     </div>
