@@ -66,8 +66,11 @@ useEffect(()=>{
     fetch(url,{
         method:"DELETE"
     })
-    .then()
-    
+    .then(data=>console.log(data))
+
+
+    axios.delete('url')
+ .then(()=>console.log("Deleted"));    
 
     
 

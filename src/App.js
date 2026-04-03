@@ -17,6 +17,8 @@ import UseReducer2 from './components/UseReducer2';
 import Form from './components/form';
 import Uncontrolled from './components/uncontrolled';
 import ThemeChange from './components/ThemeChange';
+import BasicRouting from './components/Routing/BasicRouting';
+import MainRouting from './components/Routing/MainRouting';
 
 function App() {
   const [count,setCount]=useState(80);
@@ -40,6 +42,8 @@ function App() {
         <Form/>
         <Uncontrolled/>
         <ThemeChange/>
+       <BasicRouting/>
+       <MainRouting/>
       </Counti.Provider>
       
     </div>
